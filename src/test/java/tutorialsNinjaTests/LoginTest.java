@@ -43,7 +43,7 @@ public void	LoginWithUnregisteredEmailAndPassword () throws InterruptedException
 	
 	assertFalse(ma==null);
 	ext.addTestRunnerOutput("can register with unregistered email");
-	
+	System.out.println("itermediate branch code");
 		
 	}
 
