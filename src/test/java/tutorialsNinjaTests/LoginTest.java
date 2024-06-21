@@ -39,6 +39,7 @@ public void	LoginWithUnregisteredEmailAndPassword () throws InterruptedException
 	System.out.println("my account page obeject created");
 	
 	System.out.println(ma +"value of ma");
+	System.out.println("this code is updated ");
 	
 	assertFalse(ma==null);
 	ext.addTestRunnerOutput("can register with unregistered email");
