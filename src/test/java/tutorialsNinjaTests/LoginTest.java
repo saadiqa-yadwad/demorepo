@@ -36,6 +36,8 @@ public void	LoginWithUnregisteredEmailAndPassword () throws InterruptedException
 	assertFalse(lp.equals(null),"Login tab is not visible");
 	lp.EnterDetails("2345@gmail.com", "1234");
 	MyAccountPage ma=(MyAccountPage)lp.submit();
+	System.out.println("my account page obeject created");
+	
 	System.out.println(ma +"value of ma");
 	
 	assertFalse(ma==null);
