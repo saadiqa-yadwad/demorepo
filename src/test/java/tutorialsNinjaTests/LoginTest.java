@@ -30,6 +30,8 @@ public void	LoginWithUnregisteredEmailAndPassword () throws InterruptedException
 	{
 	
 	HomePage hp=new HomePage();
+	System.out.println("Home page object created");
+	
 	LoginPage lp=(LoginPage)hp.clickOnLoginTab();
 	assertFalse(lp.equals(null),"Login tab is not visible");
 	lp.EnterDetails("2345@gmail.com", "1234");
