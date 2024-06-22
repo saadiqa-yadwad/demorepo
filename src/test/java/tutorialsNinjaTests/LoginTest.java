@@ -1,4 +1,4 @@
-package tutorialsNinjaTests;
+ package tutorialsNinjaTests;
 
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
