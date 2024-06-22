@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook ;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -41,7 +41,7 @@ public class RegisterTest  extends TutorBaseClass
 		HomePage	hp=	new HomePage();
 		RegisterPage1	rp=(RegisterPage1)hp.clickOnRegisterTab();
 		
-		assertTrue(rp.regBreadCrumbDisplayed());
+		assertTrue(rp.regBreadCrumbDisplayed() );
 String[] str=new String[] {"Zahir","yadwad","Saadiqa"+getTimeStamp()+""+"@gmail.com","454545","1234","1234"};	
 rp.EnterDetails(str);
 
